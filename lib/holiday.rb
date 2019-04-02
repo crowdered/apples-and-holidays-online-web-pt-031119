@@ -46,8 +46,8 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_holidays_with_bbq(holiday_hash)
-  holiday_hash.each do |season, holiday|
-    holiday.each do |supply|
+  holiday_hash.each do |season, holidays_with_supplies|
+    holidays_with_supplies.each do |holiday, supplies|
       binding.pry
     end
   end
