@@ -46,7 +46,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_holidays_with_bbq(holiday_hash)
-
+  holiday_hash[:].each do |
 end
 
 def all_winter_holiday_supplies(holiday_hash)
